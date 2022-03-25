@@ -1,0 +1,50 @@
+.chats-subheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  h6 {
+    font-weight: bolder;
+  }
+
+  .message-icon {
+    color: white;
+    background-color: red;
+    text-align: center;
+    position: absolute;
+    top: 26px;
+    line-height: 13px;
+    font-size: 6px;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    margin-left: 76px;
+  }
+
+  .search-icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: rgb(224, 214, 214);
+    margin-right: 5px;
+  }
+}
+.subheading-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .active {
+    border-bottom: 1px solid red;
+    padding-bottom: 5px;
+  }
+
+  .subheading-tab {
+    font-size: 13px;
+
+    margin: 10px 0px;
+
+    color: black;
+  }
+}

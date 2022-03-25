@@ -1,0 +1,14 @@
+.chatcomponent-page {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  height: 100vw;
+  width: 26vw;
+
+  .chats-section {
+    margin-left: 15px;
+    margin-right: 8px;
+    width: 20vw;
+   
+  }
+}

@@ -1,39 +1,38 @@
-
-
 .header {
-    
-    padding-top: 30px;
+  padding-top: 30px;
 
-    .header-list {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        list-style: none;
-        color: white;
-    
-        .header-group {
-            width: 50%;
-            display: flex;
-            font-family: 'Shadows Into Light', cursive;
-            font-size: 30px;
-        }
-    
-        .header-icon {
-        font-size: 30px !important;
-        color: white;
-        margin-top: 10px;
-        margin-right: 5px;
-        }
+  .header-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
 
-        .header-tab-group {
-            display: flex;
-          
-
-            .header-tab {
-                margin: 0px 20px;
-            }
-        }
-    
-    
+    .header-group {
+      width: 50%;
+      display: flex;
+      font-family: "Shadows Into Light", cursive;
+      font-size: 30px;
     }
+
+    .header-icon {
+      font-size: 30px !important;
+      color: white;
+      margin-top: 10px;
+      margin-right: 5px;
+    }
+
+    .header-tab-group {
+      display: flex;
+
+      .header-tab {
+        margin: 0px 20px;
+        color: white;
+      }
+
+      .header-tab:hover {
+        color: grey;
+      }
+    }
+  }
 }

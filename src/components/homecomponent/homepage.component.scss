@@ -1,11 +1,13 @@
 body {
   overflow-x: hidden;
+  overflow-y: hidden;
   width: 100%;
 }
 
 .home-component {
   color: white;
-  margin-top: 90px;
+  margin-top: 100px;
+  
 
   .home-component-col {
     width: 80%;
@@ -21,12 +23,23 @@ body {
     font-weight: lighter;
   }
 
-  .col-button {
+  .coll-button:hover {
+    background-color: rosybrown !important;
+    color: black;
+    
+  }
+
+  .coll-button:focus-visible { 
+    border: 1px solid rgb(129, 15, 49);
+  }
+
+  .coll-button {
     margin-top: 20px;
     color: white;
     border: 1px solid rgb(129, 15, 49);
     background-color: transparent;
     width: 150px;
+    
   }
 
   img {
